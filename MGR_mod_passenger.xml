@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mgrdata>
+    <plugin>
+        <name lang="en">Phusion Passenger over Nginx support</name>
+        <name lang="ru">Плагин поддержки Phusion Passenger в связке с Nginx</name>
+        <description lang="en">The plugin is used to deploy web projects based on Ruby, Python and Node.js, which
+            are served by Phusion Passenger.
+        </description>
+        <description lang="ru">Плагин используется для развертывания веб-проектов на базе Ruby, Python и Node.js
+            посредством Phusion Passenger.
+        </description>
+        <url>https://github.com/coffeestudio/isp-passenger/archive/master.zip</url>
+        <version>1.0</version>
+        <lang>python</lang>
+        <langver strict="no">2.7</langver>
+        <manager>ispmgr</manager>
+        <os>Linux</os>
+        <author>Art Mickiewicz</author>
+        <site>https://github.com/coffeestudio/isp-passenger/</site>
+    </plugin>
+</mgrdata>
