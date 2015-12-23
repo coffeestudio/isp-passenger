@@ -18,4 +18,23 @@
         <author>Art Mickiewicz</author>
         <site>https://github.com/coffeestudio/isp-passenger/</site>
     </plugin>
+    <handler name="passengerctl.py" type="xml">
+        <event name="webdomain.edit" final="yes"/>
+    </handler>
+    <metadata name="webdomain.edit" type="form">
+        <form>
+            <field name="passenger">
+                <input type="checkbox" name="passenger"/>
+            </field>
+            <field name="test">
+                <input type="text" name="test"/>
+            </field>
+        </form>
+    </metadata>
+    <lang name="ru">
+        <messages name="webdomain.edit">
+            <msg name="passenger">Passenger</msg>
+            <msg name="test">Test</msg>
+        </messages>
+    </lang>
 </mgrdata>
